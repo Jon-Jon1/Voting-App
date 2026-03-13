@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 24px 24px 24px;
+}
+
+h1 {
+    text-align: center;
+    color: #4f46e5;
+    margin-bottom: 8px;
+}
+
+.question {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 24px;
+    color: #374151;
+}
+
+.voting-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(79,70,229,0.08);
+}
+
+.yes-btn {
+    background: #4ade80;
+    color: #065f46;
+}
+
+.no-btn {
+    background: #f87171;
+    color: #7f1d1d;
+}
+
+.maybe-btn {
+    background: #fbbf24;
+    color: #78350f;
+}
+
+button:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 4px 16px rgba(79,70,229,0.12);
+}
+
+.reset-btn {
+    background: #6366f1;
+    color: #fff;
+    margin: 24px auto 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.results, #result {
+    margin-top: 24px;
+    background: #f3f4f6;
+    border-radius: 12px;
+    padding: 18px 16px 10px 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 1.1em;
+}
+
+.result-label {
+    font-weight: 600;
+    color: #4f46e5;
+}
+
+.result-count {
+    font-weight: 500;
+    color: #374151;
+}
+
+.result-percentage {
+    font-weight: 500;
+    color: #6366f1;
+    margin-left: 12px;
+}
+
+.no-votes {
+    text-align: center;
+    color: #9ca3af;
+    font-style: italic;
+}
+
+.vote-list {
+    margin-top: 32px;
+    background: #f9fafb;
+    border-radius: 10px;
+    padding: 12px 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+.vote-list h3 {
+    margin-top: 0;
+    color: #6366f1;
+    font-size: 1.1em;
+}
+
+#voteItems {
+    font-size: 0.98em;
+    color: #374151;
+    margin-top: 8px;
+}
